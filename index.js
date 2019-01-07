@@ -1,5 +1,5 @@
 const _ = require('lodash')
 
-export default (...args) => {
+module.exports = (...args) => {
   return _.concat([1], args)
 }
